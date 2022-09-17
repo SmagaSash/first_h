@@ -1,0 +1,24 @@
+.jskmb-calculator {
+  width: 500px; /*ширина*/
+  margin: 0 auto; /*віровнять по центру листа*/
+  text-align: center; /* вировнять по центру объекта*/
+  background-color: aliceblue;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+/*стилизуем кнопки*/
+.jskmb-calculator .operations-blok button {
+  width: 40px;
+  height: 40px;
+  margin: 20px; /*р астояние между обьектами*/
+}
+
+.jskmb-calculator .inputs-blok .input-blok {
+  display: inline-block; /*перенос строки */
+  padding: 10px;
+}
+
+.jskmb-calculator .inputs-blok .input-blok label {
+  display: block; /*перенос строки */
+}
